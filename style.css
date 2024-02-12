@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set height to 100% of viewport */
+  }
+  
+  iframe {
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #yes-button {
+    background-color: pink;
+    color: white;
+  }
+  
+  #no-button {
+    background-color: #d9534f;
+    color: white;
+  }
+  
